@@ -4,7 +4,7 @@ import cv2
 
 # Define minimap region (you may need to adjust these values)
 # Format: (left, top, width, height)
-MINIMAP_REGION = (1700, 850, 200, 200)  # Example: bottom right corner
+MINIMAP_REGION = (0, 850, 300, 400)  # Left side of the screen
 
 def extract_minimap(frame):
     x, y, w, h = MINIMAP_REGION

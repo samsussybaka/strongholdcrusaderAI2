@@ -14,7 +14,7 @@ def capture_screen(save=False):
 
     return frame
 
-def shoe_screen(frame):
+def show_screen(frame):
     cv2.imshow("Captured Screen", frame)
     cv2.waitKey(0)
     cv2.destroyAllWindows()
